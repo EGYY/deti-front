@@ -1,0 +1,12 @@
+th.hide-color {
+    color: #fff;
+}
+tr.active {
+    font-weight: bold;
+    color: #1A76DB;
+}
+.dotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
