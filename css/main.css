@@ -43,6 +43,10 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.navbar-brand:active, .navbar-brand:focus {
+    background-color: transparent;
+}
 .navbar-brand img {
     width: 35px;
     height: 35px;
@@ -107,7 +111,7 @@ main {
     padding: 4px 7px 3px;
     position: relative;
     width: auto;
-    background-color: #1A76DB;
+    background-color: #719ECF;
     text-decoration: none;
     padding: 6px 24px;
     text-transform: capitalize;
