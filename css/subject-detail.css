@@ -1,0 +1,149 @@
+.qualities {
+    margin: 27px 0;
+    background: #f7f7f7;
+    padding: 30px 0 30px 0;
+}
+
+.career-info p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    color: #000000;
+
+}
+
+.career-info__price {
+    display: flex;
+    flex-direction: column;
+}
+
+
+strong.title {
+    background: #1A76DB;
+    text-transform: uppercase;
+    padding: 0 15px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 32px;
+    letter-spacing: -1px;
+    font-size: 22px;
+}
+
+.qualities span {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 26px;
+    color: #1b0242;
+}
+
+.career__item {
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #f7f7f7;
+}
+
+.qualities-item img {
+    margin-right: 20px;
+}
+
+.program-education__item {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.program-education__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 150%;
+    color: #000000;
+
+}
+
+.program-education__list p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.action-btns {
+    margin-top: 20px;
+}
+.action-btn a {
+    border-radius: 4px;
+    display: flex;
+    background-color: #f7f7f7;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 21px;
+    color: #000000;
+    transition: .3s all;
+    text-decoration: none;
+}
+
+.action-btn a:hover, a:active, a:focus {
+    text-decoration: none;
+    background-color: #1A76DB;
+    color: #fff;
+}
+
+.type_education__tabs {
+    display: flex;
+    list-style: none;
+}
+.type_education__tabs > li > a {
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.type_education__tabs > li > a:active, a:hover, a:focus {
+    color: #000000;
+
+}
+
+.modal-form__input {
+    display: flex;
+    flex-direction: column;
+}
+.modal-form__input label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #373A3C;
+}
+.modal-form__input input {
+    height: 30px;
+    border: 1px solid #dedede;
+}
+
+.submit-form-btn {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 15px;
+    height: 45px;
+    background-color: #1A76DB;
+    border-radius: 4px;
+}
+
+.submit-form-btn:hover {
+    background-color: #1a63b8;
+}
