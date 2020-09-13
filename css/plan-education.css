@@ -1,0 +1,11 @@
+.ed-active {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1A76DB;
+}
+
+.ed-disabled {
+    font-size: 14px;
+    line-height: 24px;
+    color: #A4A4A4;
+}
