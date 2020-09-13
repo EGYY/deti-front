@@ -53,6 +53,11 @@
     margin: 20px 0 15px 0;
 }
 
+.profile-card__achievements img {
+    border: 0.5px solid #F1F1F1;
+    border-radius: 100%;
+}
+
 .profile-card__name {
     font-weight: 600;
     font-size: 14px;

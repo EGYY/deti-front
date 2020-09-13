@@ -2,7 +2,7 @@
 
 .subject-card {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 75%;
     position: relative;
     display: flex;
     padding: 10px;
@@ -27,10 +27,37 @@
 .subject-card span {
     position: absolute;
     bottom: 10px;
-    font-size: 22px;
-    color: #1b0242;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 24px;
-    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.0225em;
+    color: #212121;
+
+    text-transform: capitalize;
+}
+
+.case-home {
+    height: 100%;
+    padding: 30px 38px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin: 15px !important;
+}
+
+.case-home__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.0225em;
+    color: #212121;
+}
+
+.case-home__caption {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0225em;
+    color: #212121;
 }
 
 .subject-card span:after {
